@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:go_router/go_router.dart';
-import 'package:handspeak/data/colors.dart';
+// import 'package:handspeak/data/colors.dart';
 import 'package:handspeak/data/routes.dart';
 
 class TranslateScreen extends StatefulWidget {
@@ -22,7 +20,7 @@ class _TranslateScreenState extends State<TranslateScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.primary,
+      backgroundColor: const Color(0xFF6EC6E9),
       body: SafeArea(
         child: Column(
           children: [

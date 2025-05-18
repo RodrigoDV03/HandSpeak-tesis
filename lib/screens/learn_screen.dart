@@ -6,7 +6,7 @@ class LearnScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color(0xFF6EC6E9), // Fondo celeste
+      color: const Color(0xFF6EC6E9),
       child: SafeArea(
         child: Column(
           children: [
